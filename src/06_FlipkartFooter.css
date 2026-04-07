@@ -1,0 +1,36 @@
+footer{
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    background-color: #212121; ;
+    color: white;
+    padding: 40px 60px;
+}
+.footer-left{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;     
+    color: #878787;         
+    font-size: 14px;
+    margin-bottom: 8px;
+    
+}
+.title~span{
+    display: block;
+    margin-bottom: 8px;
+}
+.footer-right{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    border-left: 1px solid white; 
+    padding-left: 40px;
+}
