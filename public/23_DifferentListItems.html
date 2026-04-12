@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom List Items</title>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <style>
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+        ul li::before {
+            margin-right: 10px;
+        }
+        li:hover {
+            color: white;
+            background-color: black;
+            padding: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li class="bi bi-instagram"> Instagram</li>
+        <li class="bi bi-facebook"> Facebook</li>
+        <li class="bi bi-twitter-x"> Twitter</li>
+        <li class="bi bi-youtube"> Youtube</li>
+    </ul>
+</body>
+</html>
