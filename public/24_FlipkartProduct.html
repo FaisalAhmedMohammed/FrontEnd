@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mobile</title>
+
+<link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+    }
+
+    .product{
+        display: grid;
+        grid-template-columns: 2fr 7fr 3fr;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .product img{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .title{
+        color: blue;
+        margin-bottom: 10px;
+    }
+
+    .ratings{
+        background-color: green;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 14px;
+    }
+
+    ul{
+        padding-left: 18px;
+        color: gray;
+    }
+
+    li{
+        margin-bottom: 6px;
+    }
+
+    .price{
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .old-price{
+        text-decoration: line-through;
+        margin-right: 10px;
+    }
+
+    .offer{
+        color: green;
+        font-weight: bold;
+    }
+
+    .section{
+        margin-bottom: 8px;
+    }
+
+    hr{
+        border: none;
+        height: 2px;
+        background-color: blue;
+        width: 60%;
+        margin: 20px auto;
+    }
+</style>
+</head>
+
+<body>
+
+
+<div class="product">
+    <div>
+        <img src="../public/images/product.JPG">
+    </div>
+
+    <div>
+        <h2 class="title">MOTOROLA g57 power 5G (Pantone Regatta, 128 GB) (8 GB RAM)</h2>
+
+        <div class="section">
+            <span class="ratings">4.3 <i class="bi bi-star-fill"></i></span>
+            <span>17000 Ratings & 1,431 Reviews</span>
+        </div>
+
+        <ul>
+            <li>8 GB RAM | 128 GB ROM</li>
+            <li>6s Gen 4 | Octa Core Processor</li>
+            <li>50MP + 8MP Rear Camera</li>
+            <li>8MP Front Camera</li>
+            <li>6.72 inch Display</li>
+            <li>7000 mAh Battery</li>
+        </ul>
+    </div>
+
+    <div>
+        <div class="price">₹17,000</div>
+
+        <div class="section">
+            <span class="old-price">₹20,000</span>
+            <span class="offer">23% off</span>
+        </div>
+
+        <div class="section">
+            upto <b>₹10,000</b> off on <b>Exchange</b>
+        </div>
+
+        <div class="offer">Bank Offer</div>
+    </div>
+</div>
+
+<hr>
+
+
+<div class="product">
+    <div>
+        <img src="../public/images/product.JPG">
+    </div>
+
+    <div>
+        <h2 class="title">MOTOROLA g57 power 5G (Pantone Regatta, 128 GB) (8 GB RAM)</h2>
+
+        <div class="section">
+            <span class="ratings">4.3 <i class="bi bi-star-fill"></i></span>
+            <span>17000 Ratings & Reviews</span>
+        </div>
+
+        <ul>
+            <li>8 GB RAM | 128 GB ROM</li>
+            <li>Octa Core Processor</li>
+            <li>50MP Camera</li>
+            <li>7000 mAh Battery</li>
+        </ul>
+    </div>
+
+    <div>
+        <div class="price">₹17,000</div>
+
+        <div class="section">
+            <span class="old-price">₹20,000</span>
+            <span class="offer">23% off</span>
+        </div>
+
+        <div class="section">Exchange Offer Available</div>
+        <div class="offer">Bank Offer</div>
+    </div>
+</div>
+
+<hr>
+
+</body>
+</html>
