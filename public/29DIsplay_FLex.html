@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Property</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <style>
+      .container {
+        background-color: beige;
+        border: 2px solid black;
+        display: flex;
+        height: 1200px;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        justify-content: start;
+        /* align-items: start; */
+        margin: 5px;
+        padding: 5px;
+        align-content: start;
+      }
+      .box {
+        width: 150px;
+        height: 150px;
+        border: 2px solid brown;
+        margin: 5px;
+        padding: 2px;
+      }
+      #box1 {
+        background-color: red;
+        order: 4;
+        flex-shrink: 4;
+      }
+      #box2 {
+        background-color: aqua;
+        flex-shrink: 5;
+      }
+      #box3 {
+        background-color: green;
+      }
+      #box4 {
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box" id="box1">box1</div>
+      <div class="box" id="box2">box2</div>
+      <div class="box" id="box3">box3</div>
+      <div class="box" id="box4">box4</div>
+    </div>
+  </body>
+</html>

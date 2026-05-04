@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Shadow</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <style>
+      .container {
+        height: 650px;
+        background-color: beige;
+        border: 2px solid black;
+        margin: 5px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box {
+        background-color: aquamarine;
+        height: 400px;
+        width: 330px;
+        border: 2px solid brown;
+        margin: 5px;
+        padding: 15px;
+        /* box-shadow: 10px 8px 5px brown; */
+        /* box-shadow: 30px 20px 10px 1px rgba(0, 0, 0, 0.2); */
+        /* box-shadow: inset 10px 8px 5px 2px green; */
+      }
+      #heading1 {
+        text-shadow:
+          15px 15px 1px white,
+          10px 15px 1px green,
+          12px 15px 1px orange;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <img src="images/car.jpg" alt="BMV car image" />
+        <h2 id="heading1" style="font-family: Arial, Helvetica, sans-serif">
+          Cars Detailing
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae,
+          vel. Iusto, doloribus aliquam vitae nisi ratione sunt totam mollitia
+          nam dicta commodi, aliquid tenetur exercitationem!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

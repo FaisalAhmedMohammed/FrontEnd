@@ -1,197 +1,190 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amazon Product Cards</title>
-    <meta name="keywords" content="some keywords about your website">
-    <meta name="Description" content="short summary about your website">
-    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="shortcut icon" href="../public/images/favicon.ico">
-    <link rel="stylesheet" href="../src/05_AmazonFooter.css">
+    <meta name="keywords" content="some keywords about your website" />
+    <meta name="Description" content="short summary about your website" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link rel="shortcut icon" href="../public/images/favicon.ico" />
+    <link rel="stylesheet" href="../src/05_AmazonFooter.css" />
     <style>
-        section{
-            display: grid;
-            grid-template-columns: 3fr 3fr 3fr 3fr;
-            padding: 10px;
-            margin: 5px;
-            grid-gap: 10px;
-            margin-top: -250px;
-        }
-        .card{
-            height: 370px;
-            background-color: white;
-            box-shadow: 2px 2px 2px grey;
-            padding: 2px;
-        }
-        .row-2, .row-3{
-            display: grid;
-            grid-template-columns: 6fr 6fr;
-            grid-gap: 5px;
-            padding: 5px;
-        }
-        .row-2 img{
-            width: 90%;
-            height: 80px;
-        }
-        .row-3 img{
-            width: 90%; 
-            height: 80px;
-        }
-        .row-1{
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 19px;
-            font-weight: bold;
-            padding: 10px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-        .row-4{
-            color: rgb(30, 125, 185);
-            margin-top: 20px;;
-        }
-        .title{
-            margin-top: -3px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 12px;
-            color: black;
-        }
+      section {
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr 3fr;
+        padding: 10px;
+        margin: 5px;
+        grid-gap: 10px;
+        margin-top: -250px;
+      }
+      .card {
+        height: 370px;
+        background-color: white;
+        box-shadow: 2px 2px 2px grey;
+        padding: 2px;
+      }
+      .row-2,
+      .row-3 {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        grid-gap: 5px;
+        padding: 5px;
+      }
+      .row-2 img {
+        width: 90%;
+        height: 80px;
+      }
+      .row-3 img {
+        width: 90%;
+        height: 80px;
+      }
+      .row-1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 19px;
+        font-weight: bold;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .row-4 {
+        color: rgb(30, 125, 185);
+        margin-top: 20px;
+      }
+      .title {
+        margin-top: -3px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: black;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <head>
-        <img src="../public/images/amazonBackgroung2.jpg" alt="Background image" width="100%" height="100%">
+      <img
+        src="../public/images/amazonBackgroung2.jpg"
+        alt="Background image"
+        width="100%"
+        height="100%"
+      />
     </head>
     <section>
-        <div class="card">
-            <div class="row-1">
-                Appliances for your home | Up to 55% off
-            </div>
-            <div class="row-2">
-                <div>
-                    <img src="../public/images/h5.jpg" alt="">
-                    <p class="title">MircroWaves</p>
-                </div>
-                <div>
-                    <img src="../public/images/h6.jpg" alt="">
-                    <p class="title">Washing machines</p>
-                </div>
-            </div>
-            <div class="row-3">
-                <div>
-                    <img src="../public/images/h8.jpg" alt="">
-                    <p class="title">Air Conditioners</p>
-                </div>
-                <div>
-                    <img src="../public/images/h2.jpg" alt="">
-                    <p class="title">Refrigerators</p>
-                </div>
-            </div>
-            <div class="row-4">
-                See More
-            </div>
+      <div class="card">
+        <div class="row-1">Appliances for your home | Up to 55% off</div>
+        <div class="row-2">
+          <div>
+            <img src="../public/images/h5.jpg" alt="" />
+            <p class="title">MircroWaves</p>
+          </div>
+          <div>
+            <img src="../public/images/h6.jpg" alt="" />
+            <p class="title">Washing machines</p>
+          </div>
         </div>
-        <div class="card">
-             <div class="row-1">
-                Revamp your home in style
-            </div>
-            <div class="row-2">
-                <div>
-                    <img src="../public/images/home1.jpg" alt="">
-                    <p class="title">Cushion covers, bedsheets & more</p>
-                </div>
-                <div>
-                    <img src="../public/images/home2.jpg" alt="">
-                    <p class="title">Figurines, vases & more</p>
-                </div>
-            </div>
-            <div class="row-3">
-                <div>
-                    <img src="../public/images/home3.jpg" alt="">
-                    <p class="title">Home storage</p>
-                </div>
-                <div>
-                    <img src="../public/images/home4.jpg" alt="">
-                    <p class="title">Lighting solutions</p>
-                </div>
-            </div>
-            <div class="row-4">
-                See More
-            </div>
+        <div class="row-3">
+          <div>
+            <img src="../public/images/h8.jpg" alt="" />
+            <p class="title">Air Conditioners</p>
+          </div>
+          <div>
+            <img src="../public/images/h2.jpg" alt="" />
+            <p class="title">Refrigerators</p>
+          </div>
         </div>
-        <div class="card">
-             <div class="row-1">
-                Appliances for your home | Up to 55% off
-            </div>
-            <div class="row-2">
-                <div>
-                    <img src="../public/images/h5.jpg" alt="">
-                    <p class="title">MircroWaves</p>
-                </div>
-                <div>
-                    <img src="../public/images/h6.jpg" alt="">
-                    <p class="title">Washing machines</p>
-                </div>
-            </div>
-            <div class="row-3">
-                <div>
-                    <img src="../public/images/h8.jpg" alt="">
-                    <p class="title">Air Conditioners</p>
-                </div>
-                <div>
-                    <img src="../public/images/h2.jpg" alt="">
-                    <p class="title">Refrigerators</p>
-                </div>
-            </div>
-            <div class="row-4">
-                See More
-            </div>
+        <div class="row-4">See More</div>
+      </div>
+      <div class="card">
+        <div class="row-1">Revamp your home in style</div>
+        <div class="row-2">
+          <div>
+            <img src="../public/images/home1.jpg" alt="" />
+            <p class="title">Cushion covers, bedsheets & more</p>
+          </div>
+          <div>
+            <img src="../public/images/home2.jpg" alt="" />
+            <p class="title">Figurines, vases & more</p>
+          </div>
         </div>
-        <div class="card">
-             <div class="row-1">
-                Appliances for your home | Up to 55% off
-            </div>
-            <div class="row-2">
-                <div>
-                    <img src="../public/images/h5.jpg" alt="">
-                    <p class="title">MircroWaves</p>
-                </div>
-                <div>
-                    <img src="../public/images/h6.jpg" alt="">
-                    <p class="title">Washing machines</p>
-                </div>
-            </div>
-            <div class="row-3">
-                <div>
-                    <img src="../public/images/h8.jpg" alt="">
-                    <p class="title">Air Conditioners</p>
-                </div>
-                <div>
-                    <img src="../public/images/h2.jpg" alt="">
-                    <p class="title">Refrigerators</p>
-                </div>
-            </div>
-            <div class="row-4">
-                See More
-            </div>
+        <div class="row-3">
+          <div>
+            <img src="../public/images/home3.jpg" alt="" />
+            <p class="title">Home storage</p>
+          </div>
+          <div>
+            <img src="../public/images/home4.jpg" alt="" />
+            <p class="title">Lighting solutions</p>
+          </div>
         </div>
+        <div class="row-4">See More</div>
+      </div>
+      <div class="card">
+        <div class="row-1">Appliances for your home | Up to 55% off</div>
+        <div class="row-2">
+          <div>
+            <img src="../public/images/h5.jpg" alt="" />
+            <p class="title">MircroWaves</p>
+          </div>
+          <div>
+            <img src="../public/images/h6.jpg" alt="" />
+            <p class="title">Washing machines</p>
+          </div>
+        </div>
+        <div class="row-3">
+          <div>
+            <img src="../public/images/h8.jpg" alt="" />
+            <p class="title">Air Conditioners</p>
+          </div>
+          <div>
+            <img src="../public/images/h2.jpg" alt="" />
+            <p class="title">Refrigerators</p>
+          </div>
+        </div>
+        <div class="row-4">See More</div>
+      </div>
+      <div class="card">
+        <div class="row-1">Appliances for your home | Up to 55% off</div>
+        <div class="row-2">
+          <div>
+            <img src="../public/images/h5.jpg" alt="" />
+            <p class="title">MircroWaves</p>
+          </div>
+          <div>
+            <img src="../public/images/h6.jpg" alt="" />
+            <p class="title">Washing machines</p>
+          </div>
+        </div>
+        <div class="row-3">
+          <div>
+            <img src="../public/images/h8.jpg" alt="" />
+            <p class="title">Air Conditioners</p>
+          </div>
+          <div>
+            <img src="../public/images/h2.jpg" alt="" />
+            <p class="title">Refrigerators</p>
+          </div>
+        </div>
+        <div class="row-4">See More</div>
+      </div>
     </section>
-     <div class="back">Back To Top</div>
+    <div class="back">Back To Top</div>
     <footer>
-    <div>
+      <div>
         <div class="footer-title">Get to Know Us</div>
         <span>About Amazon</span>
         <span>Careers</span>
         <span>Press Releases</span>
         <span></span>
-    </div>
-    <div>
+      </div>
+      <div>
         <div class="footer-title">Connect with Us</div>
         <span>Facebook</span>
         <span>Twitter</span>
         <span>Instagram</span>
-    </div>
-    <div>
+      </div>
+      <div>
         <div class="footer-title">Make Money with Us</div>
         <span>Sell on Amazon</span>
         <span>Sell under Amazon Accelerator</span>
@@ -202,8 +195,8 @@
         <span>Fulfilment by Amazon</span>
         <span>Advertise Your Products</span>
         <span>Amazon Pay on Merchants</span>
-    </div>
-    <div>
+      </div>
+      <div>
         <div class="footer-title">Let Us Help You</div>
         <span>Your Account</span>
         <span>Returns Centre</span>
@@ -211,7 +204,7 @@
         <span>100% Purchase Protection</span>
         <span>Amazon App Download</span>
         <span>Help</span>
-    </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transitions Property</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .container {
+        background-color: lightsteelblue;
+        border: 2px solid brown;
+        height: 70px;
+        width: 300px;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+        line-height: 30px;
+
+        transition-property: all;
+        transition-duration: 1s;
+        transition-delay: 0s;
+        transition-timing-function: linear;
+      }
+
+      .container:hover {
+        background-color: purple;
+        width: 140px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p>Hover to see</p>
+      <p>the transition.</p>
+    </div>
+  </body>
+</html>

@@ -6,8 +6,8 @@ header{
     font-size: 23px;
     padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
-   display: flex;
-   justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 nav span{
     margin-right: 12px;

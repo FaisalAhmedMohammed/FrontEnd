@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Example</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <style>
+      .container {
+        background-color: beige;
+        border: 2px solid brown;
+        width: 400px;
+        margin: 2px;
+        padding: 5px;
+        display: flex;
+      }
+      .boxleft {
+        background-color: aquamarine;
+        border: 2px solid blue;
+        width: 47%;
+        margin: 5px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+      }
+      .boxright {
+        background-color: yellow;
+        border: 2px solid brown;
+        width: 47%;
+        margin: 5px;
+        padding: 5px;
+      }
+      img {
+        width: 150px;
+        height: 150px;
+      }
+      blockquote {
+        border: 1px solid red;
+      }
+      @media (max-width: 600px) {
+        .container {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="boxleft">
+        <blockquote>Media 1</blockquote>
+        <blockquote>Media 2</blockquote>
+      </div>
+      <div class="boxright">
+        <img src="images/car.jpg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
