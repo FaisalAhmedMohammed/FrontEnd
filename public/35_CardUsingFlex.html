@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>card uisng Flex</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <meta
+      name="keywords"
+      content="some important keywords about this web site"
+    />
+    <meta
+      name="Description"
+      content="Creating basic Cards using displex flex property"
+    />
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 100vw;
+        height: 100vh;
+        background-color: #8bc6ec;
+        background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .card {
+        height: 400px;
+        width: 320px;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 20px;
+      }
+      .card img {
+        height: auto;
+        width: 68%;
+        transition: all 1s linear 0s;
+      }
+      .card img:hover {
+        transform: scale(1.1);
+      }
+      .card h2 {
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .card p {
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #heading {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+      @media (max-width: 600px) {
+        .container {
+          width: 90%;
+          height: auto;
+          padding: 15px;
+          gap: 15px;
+        }
+        .card p {
+          font-size: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img src="images/qrcode.jpg" alt="card image" />
+
+        <div id="heading">
+          <h2>Improve your front end skills by building projects</h2>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+          minima amet, obcaecati sit non natus!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
