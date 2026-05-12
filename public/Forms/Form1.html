@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Forms in html " />
+    <meta name="description" content="short summary about your website" />
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="name">Enter Name</label>
+      <input type="text" id="name" name="name" value="john" disabled />
+
+      <br />
+      <br />
+
+      <label for="city">Enter City</label>
+      <input
+        type="text"
+        name="city"
+        id="city"
+        list="cities"
+        size="25"
+        placeholder="Enter your City Name"
+        autofocus
+        minlength="4"
+        maxlength="10"
+        required
+        pattern=".aat"
+      />
+      <datalist id="cities">
+        <option value="Hyderabad"></option>
+        <option value="Delhi"></option>
+        <option value="Mumbai"></option>
+        <option value="Chennai"></option>
+      </datalist>
+
+      <br />
+      <br />
+
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>
