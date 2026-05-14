@@ -16,6 +16,8 @@
       <br />
       <br />
 
+      <!-- minlength="4"
+        maxlength="10" -->
       <label for="city">Enter City</label>
       <input
         type="text"
@@ -25,10 +27,8 @@
         size="25"
         placeholder="Enter your City Name"
         autofocus
-        minlength="4"
-        maxlength="10"
         required
-        pattern=".aat"
+        pattern="[a-z,A-Z]{3,15}"
       />
       <datalist id="cities">
         <option value="Hyderabad"></option>
@@ -37,6 +37,19 @@
         <option value="Chennai"></option>
       </datalist>
 
+      <br />
+      <br />
+
+      <label for="mobile">Mobile No:</label>
+      <input
+        type="tel"
+        id="mobile"
+        name="mobile"
+        value="+91 "
+        pattern="^\+91\s\d{10}$"
+        size="14"
+        placeholder=" Your Number"
+      />
       <br />
       <br />
 
