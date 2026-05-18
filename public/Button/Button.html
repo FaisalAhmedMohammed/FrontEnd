@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button in Html 5</title>
+    <link
+      rel="stylesheet"
+      href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+  </head>
+  <body>
+    <form action="">
+      <h3>Register User</h3>
+      <div>
+        <label for="name">Enter Name</label>
+        <div>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            required
+            pattern="[a-zA-Z]{4,20}"
+            autofocus
+          />
+        </div>
+      </div>
+      <br />
+      <br />
+
+      <div>
+        <label for="password">Enter Password</label>
+        <div>
+          <input type="password" name="password" id="password" required />
+        </div>
+      </div>
+      <br />
+      <div>
+        <button type="submit">
+          <span class="bi bi-person-fill"></span> Login
+        </button>
+      </div>
+      <br />
+      <div>
+        <button type="reset">
+          <img src="../images/fashion3.jpg" alt="" width="20px" height="20px" />
+          <span>Reset</span>
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
