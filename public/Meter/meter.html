@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meter</title>
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <style>
+      .ratings {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        gap: 30px;
+        align-items: start;
+        width: 700px;
+        margin: 50px auto;
+        font-family: Arial, sans-serif;
+      }
+      .rate {
+        font-size: 50px;
+        font-weight: bold;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+      }
+
+      li {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+      }
+
+      meter {
+        width: 250px;
+        height: 30px;
+      }
+
+      .bi-star-fill {
+        color: orange;
+      }
+
+      .summary {
+        margin-top: 10px;
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ratings">
+      <div>
+        <div class="rate">4.6 <span class="bi bi-star-fill"></span></div>
+        <div class="summary">5000 ratings &amp; 1000 reviews</div>
+      </div>
+
+      <div>
+        <ul>
+          <li>
+            <span>5 <span class="bi bi-star-fill"></span><span>
+            <meter value="4500" min="0" max="5000"></meter>
+            <span>4500</span>
+          </li>
+          <li>
+            <span>4 <span class="bi bi-star-fill"></span></span>
+            <meter value="3000" min="0" max="4000"></meter>
+            <span>4000</span>
+          </li>
+          <li>
+            <span>3 <span class="bi bi-star-fill"></span></span>
+            <meter value="2000" min="100" max="3000"></meter>
+            <span>3000</span>
+          </li>
+          <li>
+            <span>2 <span class="bi bi-star-fill"></span></span>
+            <meter value="1000" min="0" max="2000"></meter>
+            <span>2000</span>
+          </li>
+          <li>
+            <span>1 <span class="bi bi-star-fill"></span></span>
+            <meter value="50" min="0" max="100" low="29" high="80"></meter>
+            <span>1000</span>
+          </li>
+
+          <li>
+            <progress max="100" value="30"></progress><span>Downloading</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
