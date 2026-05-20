@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Range File Select</title>
+    <link
+      rel="stylesheet"
+      href="../../../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+  </head>
+  <body class="container-fluid">
+    <h4 class="mb-3">Color Range File Select</h4>
+    <form action="" class="w-25">
+      <div>
+        <div class="mb-4">
+          <label for="color" class="form-label">Color</label>
+          <input
+            type="color"
+            name="color"
+            id="color"
+            class="form-control-color"
+          />
+        </div>
+        <div class="mb-4">
+          <label for="range" class="form-label">Range</label>
+          <input
+            type="range"
+            id="range"
+            name="range"
+            class="form-range"
+            min="0"
+            max="100"
+            value="50"
+          />
+        </div>
+        <div class="mb-4">
+          <label for="file" class="form-label">Upload File</label>
+          <input
+            type="file"
+            id="file"
+            name="file"
+            multiple
+            class="form-control"
+          />
+        </div>
+        <div>
+          <label for="city" class="form-label"> Select City</label>
+          <select name="city" id="city" class="form-select">
+            <option value="Mumbai">Mumbai</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Hyderabad">Hyderabad</option>
+          </select>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

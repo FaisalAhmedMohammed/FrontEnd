@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radio and CheckBox</title>
+
+    <link
+      rel="stylesheet"
+      href="../../../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../../../node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+  </head>
+  <body class="container-fluid">
+    <h4 class="mb-3">Radio and CheckBox</h4>
+
+    <form class="w-25">
+      <label class="form-label">Select Gender</label>
+
+      <div class="form-check">
+        <input
+          type="radio"
+          name="gender"
+          id="male"
+          value="male"
+          class="form-check-input"
+          checked
+        />
+        <label for="male" class="form-check-label">Male</label>
+      </div>
+
+      <div class="form-check">
+        <input
+          type="radio"
+          name="gender"
+          id="female"
+          value="female"
+          class="form-check-input"
+        />
+        <label for="female" class="form-check-label">Female</label>
+      </div>
+
+      <div class="form-check">
+        <input
+          type="radio"
+          name="gender"
+          id="others"
+          value="others"
+          class="form-check-input"
+        />
+        <label for="others" class="form-check-label">Others</label>
+      </div>
+
+      <div>
+        <label class="form-label mt-4 bg-danger text-white p-2 rounded-2"
+          >Select Courses</label
+        >
+        <div class="form-check form-switch">
+          <input
+            type="checkbox"
+            id="java"
+            name="courses"
+            value="java"
+            class="form-check-input"
+          />
+          <label for="java" class="form-check-label">Java</label>
+        </div>
+
+        <div class="form-check form-switch">
+          <input
+            type="checkbox"
+            name="courses"
+            id="oracle"
+            value="oracle"
+            class="form-check-input"
+          />
+          <label for="oracle" class="form-check-label">Oracle</label>
+        </div>
+        <div class="form-check form-switch">
+          <input
+            type="checkbox"
+            name="courses"
+            id=".Net"
+            value=".net"
+            class="form-check-input"
+          />
+          <label for=".Net" class="form-check-label">.Net</label>
+        </div>
+        <div class="form-check form-switch">
+          <input
+            type="checkbox"
+            name="courses"
+            id="SpringBoot"
+            value="springboot"
+            class="form-check-input"
+          />
+          <label for="SpringBoot" class="form-check-label">SpringBoot</label>
+        </div>
+        <div class="form-check form-switch">
+          <input type="checkbox" name="C#" id="C#" class="form-check-input" />
+          <label for="C#" class="form-check-label">C#</label>
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-success me-5">Register</button>
+      <span> <button type="reset" class="btn btn-warning">Reset</button></span>
+    </form>
+  </body>
+</html>
